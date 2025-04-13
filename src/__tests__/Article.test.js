@@ -27,7 +27,7 @@ test("uses a default value for the date if no date is passed as a prop", () => {
       minutes={2}
     />
   );
-  const small = screen.queryByText(/January 1, 1970/); // since minutes=2
+  const small = screen.queryByText(/January 1, 1970/); 
   expect(small).toBeInTheDocument();
 });
 
